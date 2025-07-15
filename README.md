@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# mnist-svm-classifier
-=======
+
 # MNIST SVM Classifier
 
 Classificador de dígitos manuscritos do MNIST usando SVM (Support Vector Machine) com kernel RBF.
@@ -18,7 +16,10 @@ pip install numpy scipy scikit-learn matplotlib seaborn
 ### Uso Básico
 
 1. Coloque o arquivo `mnist_784.csv` na mesma pasta do script (`svm/`).
-2. Execute o script:
+
+   [mnist_784](https://api.openml.org/d/554)
+
+3. Execute o script:
 
 ```bash
 python3 exemplo_mnist.py
@@ -84,18 +85,3 @@ Mtest = M[5000:6000, :] # Altere o número/intervalo de teste
 
 ---
 
-## Estrutura do Projeto
-
-```
-svm/
-  ├── exemplo_mnist.py   # Script principal
-  ├── mnist_784.csv      # Base de dados MNIST (CSV)
-  └── mnist_784.mat      # Cache em formato MATLAB
-```
-
----
-
-## Créditos
-- Inspirado em exemplos clássicos de classificação SVM para MNIST.
-- Visualizações com matplotlib e seaborn. 
->>>>>>> f9d0962 (exemplo inicial)
